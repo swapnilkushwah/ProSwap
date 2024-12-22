@@ -1,9 +1,12 @@
 #include<iostream>
+#include "Source.h"
 using namespace std;
 int main()
 {
-	cout << "Hello World" << endl;
-	cout << "Hello RTM" << endl;
-	cout << "Hello BLR" << endl;
+	Demo obj;
+	obj.setData(10, 20);
+	cout << obj.getData();
+
+
 	return 0;
 }
