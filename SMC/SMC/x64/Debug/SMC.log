@@ -1,5 +1,4 @@
-﻿  Source.cpp
-C:\Users\YOGA\Desktop\ProSwap\SMC\SMC\Source.cpp(3,7): error C2011: 'Demo': 'class' type redefinition
-      C:\Users\YOGA\Desktop\ProSwap\SMC\SMC\Source.cpp(3,7):
-      see declaration of 'Demo'
-  
+﻿  FileName.cpp
+  Source.cpp
+  Generating Code...
+  SMC.vcxproj -> C:\Users\YOGA\Desktop\ProSwap\SMC\x64\Debug\SMC.exe

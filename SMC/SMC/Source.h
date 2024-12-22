@@ -1,13 +1,9 @@
 #pragma once
-#include"Source.cpp"
-using namespace std;
-
-void Demo::setData(int x, int y)
+class Demo
 {
-	this->x = x;
-	this->y = y;
-}
-int Demo::getData()
-{
-	return x + y;
-}
+	int x;
+	int y;
+public:
+	void setData(int x, int y);
+	int getData();
+};

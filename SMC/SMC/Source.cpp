@@ -1,10 +1,11 @@
 #include"Source.h"
 
-class Demo
+void Demo::setData(int x, int y)
 {
-	int x;
-	int y;
-public:
-	void setData(int x, int y);
-	int getData();
-};
+	this->x = x;
+	this->y = y;
+}
+int Demo::getData()
+{
+	return x + y;
+}
