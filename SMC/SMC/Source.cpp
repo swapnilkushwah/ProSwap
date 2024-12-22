@@ -10,6 +10,6 @@ int Demo::getData()
 	return x + y;
 }
 
-int Demo:::getchar(){
+char Demo::getchar(){
      char a;
 }
