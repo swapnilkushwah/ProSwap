@@ -9,3 +9,7 @@ int Demo::getData()
 {
 	return x + y;
 }
+
+int Demo:::getchar(){
+     char a;
+}

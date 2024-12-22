@@ -10,6 +10,6 @@ int main()
 
 	cout << "hello" << endl;
 
-	cout<<"Hello file "<<endl;
+	
 	return 0;
 }
