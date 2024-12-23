@@ -5,11 +5,12 @@ int main()
 {
 	Demo obj;
 	obj.setData(10, 20);
-	cout << obj.getData();
-
-
+	cout << obj.getData()<<endl;
 	cout << "hello" << endl;
 
-	
-	return 0;
+	Dates t;
+
+	t.setdate(23,12,2024);
+  	t.display();
 }
+

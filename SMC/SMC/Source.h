@@ -1,4 +1,5 @@
 #pragma once
+
 class Demo
 {
 	int x;
@@ -6,6 +7,26 @@ class Demo
 public:
 	void setData(int x, int y);
 	int getData();
-	void setchar(char c);
-	char getchar();
+};
+
+
+class Dates{
+
+
+
+
+
+private:  
+
+int day;
+int month;
+int year;
+
+
+public:
+
+void setdate(int day, int month, int year);
+void display();
+
+
 };
