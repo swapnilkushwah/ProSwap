@@ -10,8 +10,7 @@ int main()
 	cout << "hello" << endl;
 
 	Dates t;
-
-	t.setdate(23,12,2024);
+        t.setdate(23,12,2024);
   	t.display();
 }
 
