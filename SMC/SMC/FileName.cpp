@@ -8,8 +8,9 @@ int main(){
 	 cout << obj.getData()<<endl;
 	 cout << "hello" << endl;
 
+  // create the program data month year//
 	 Dates t;
-              t.setdate(23,12,2024);
+         t.setdate(23,12,2024);
   	 t.display();
 cout<<"--------------------------------------------------------------------------------"<<endl;
  // Create the program using operator overloading
