@@ -8,6 +8,8 @@ class Demo
 public:
  
  void setData(int x, int y);
+ Demo operator+(Demo &d);
+ void showdata();
  int getData();
 
 };
