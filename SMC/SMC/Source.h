@@ -12,6 +12,7 @@ public:
 
 };
 
+// create the progream date month and year//
 
 class Dates{
 	
@@ -27,3 +28,23 @@ void setdate(int day, int month, int year);
 void display();
 
 };
+
+// Create the program using operator overloading
+
+class Complex{
+   private:
+
+   int a;
+   int b;
+
+   public:
+
+   void mydata(int x,int y);
+   Complex operator+(const Complex &c);
+   void showdata();
+};
+
+
+
+
+ 
